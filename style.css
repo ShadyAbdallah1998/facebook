@@ -1,0 +1,138 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+    box-sizing: border-box;
+    caret-color: #1877F2;
+}
+
+:root {
+    --mainPadding: 10px;
+    --mainMargin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+
+.container .logo img {
+    width: 320px;
+    height: 106px;
+}
+
+.container .logo p {
+    font-size: 28px;
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+
+
+.form form {
+    background-color: #FFFFFF;
+    width: 395px;
+    height: 317px;
+    padding: var(--mainPadding);
+    margin: var(--mainMargin);
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1), 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.form form input {
+    background-color: #FFFFFF;
+    width: 360px;
+    padding: var(--mainPadding);
+    margin: var(--mainMargin);
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.user-id,
+.user-pass {
+    opacity: 50%;
+}
+
+.form input:focus {
+    border: 1.5px solid #1877F2;
+    opacity: 70%;
+}
+
+.log-button {
+    background-color: #1877F2 !important;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pass-reset {
+    background-color: inherit;
+    color: #1877F2;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.pass-reset:hover {
+    text-decoration: underline;
+}
+
+.form hr {
+    width: 90%;
+    margin: auto;
+    opacity: 50%;
+}
+
+.new-account {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.new-account a{
+    background-color: #36A420;
+    width: 50%;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form .footer {
+    color: #1c1e21;
+    padding-top: 20px;
+    font-family: 'SFProText-Regular', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    color: #1c1e21;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,236 @@
+body {
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: #1877F2;
+    background-color: #e0e0e0;
+    caret-color: gray;
+}
+
+:root {
+    --mainPadding: 10px;
+    --mainMargin: 10px;
+}
+
+.sign-up {
+    border: 1px solid white;
+    background-color: #ffffff;
+    margin: 50px auto;
+    width: 432px;
+    padding: var(--mainPadding);
+    height: 500px;
+    border-radius: 10px;
+}
+
+.name input {
+    width: 43%;
+    background-color: #F5F6F7;  
+    outline: none;
+    border: 1px solid gray;
+    padding: var(--mainPadding);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sign-up h2 {
+    margin:5px;
+}
+
+.easy {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+.mail input {
+    width: 93%;
+    background-color: #F5F6F7;  
+    outline: none;
+    border: 1px solid gray;
+    padding: var(--mainPadding);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.pass input {
+    width: 93%;
+    background-color: #F5F6F7;  
+    outline: none;
+    border: 1px solid gray;
+    padding: var(--mainPadding);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.date .dbirth {
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.date .dbirth::after {
+    content: "?";
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+    background-color: #606770;
+    border: 0px solid gray;
+    border-radius: 50%;
+}
+
+.date select{
+    display: inline-flex;
+    width: calc(97% / 3);
+}
+
+.days {
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    width: 125px;
+}
+
+.months {
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    width: 125px;
+}
+
+.years {
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px; 
+    width: 125px;
+}
+
+.gendertitle {
+    color: #606770;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    
+}
+
+ .gendertitle::after {
+    content: "?";
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+    background-color: #606770;
+    border: 0px solid gray;
+    border-radius: 50%;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.female-gender {
+    color: #1c1e21;
+    width: 24%;
+    height: 36px;
+    font-size: 15px;
+    border: 1px solid gray;
+    padding: 0 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.male-gender {
+    color: #1c1e21;
+    width: 24%;
+    height: 36px;
+    font-size: 15px;
+    border: 1px solid gray;
+    padding: 0 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.custom-gender {
+    color: #1c1e21;
+    width: 24%;
+    height: 36px;
+    font-size: 15px;
+    border: 1px solid gray;
+    padding: 0 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.gender label {
+    text-align: left;
+}
+
+.end-text {
+    color: #777;
+    font-size: 11px;
+}
+
+.end-text  a {
+    text-decoration: none;
+}
+
+.end-text a:hover{
+    text-decoration: underline;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.submit input{
+    cursor: pointer;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    padding: 0 32px;
+
+}
